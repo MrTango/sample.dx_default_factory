@@ -6,6 +6,12 @@
   <configure zcml:condition="installed AccessControl.security">
   <!-- -*- extra stuff goes here -*- -->
 
+    <permission
+        id="sample.dx_default_factory.AddSampleType"
+        title="sample.dx_default_factory: Add SampleType"
+    />
+
+
 
   </configure>
 
